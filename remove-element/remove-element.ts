@@ -8,7 +8,5 @@ function removeElement(nums: number[], val: number): number {
         }
     }
     
-    console.log(nums)
-    
     return copy.length - count 
 };
