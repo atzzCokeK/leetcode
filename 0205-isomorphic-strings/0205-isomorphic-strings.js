@@ -11,8 +11,8 @@ var isIsomorphic = function(s, t) {
         if(map1[s.charAt(i)] !== map2[t.charAt(i)]){
             return false
         }
-        map1[s.charAt(i)] = i + 1
-        map2[t.charAt(i)] = i + 1
+        map1[s.charAt(i)] = i
+        map2[t.charAt(i)] = i
     }
     
     return true
