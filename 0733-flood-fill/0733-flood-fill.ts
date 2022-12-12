@@ -4,7 +4,7 @@ function floodFill(image: number[][], sr: number, sc: number, color: number): nu
     const rowLimit = image.length
     const columnLimit = image[0].length
     const stack = []
-    const original = [...image][sr][sc]
+    const original = image[sr][sc]
 
     stack.push([sr,sc])
 
