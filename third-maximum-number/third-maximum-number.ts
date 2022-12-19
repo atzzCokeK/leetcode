@@ -16,8 +16,7 @@ function thirdMax(nums: number[]): number {
             resultP++
         }
     }
-    console.log(result)
     
     
-    return result[2] !== undefined ? result[2] : nums[0]
+    return result[2] !== undefined ? result[2] : result[0]
 };
