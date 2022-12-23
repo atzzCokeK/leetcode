@@ -12,8 +12,6 @@
  */
 var inorderTraversal = function(root) {
     const answers = []
-    
-    
     const func = (node) => {
         if (!node) return
         
