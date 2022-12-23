@@ -11,9 +11,8 @@
  * @return {number[]}
  */
 var inorderTraversal = function(root) {
-    if (!root) return []
-    
     const answers = []
+    
     
     const func = (node) => {
         if (!node) return
