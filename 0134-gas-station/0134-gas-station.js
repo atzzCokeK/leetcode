@@ -17,6 +17,7 @@ var canCompleteCircuit = function(gas, cost) {
             startingP = i + 1;
             curr_tank = 0;
         }
+        
 
     }
 
