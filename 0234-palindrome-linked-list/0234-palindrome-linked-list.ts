@@ -20,7 +20,6 @@ function isPalindrome(head: ListNode | null): boolean {
         toArray(node.next)
     }
     toArray(head)
-    console.log(array)
     
     let end = array.length - 1
     let start = 0
