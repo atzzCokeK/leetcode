@@ -1,13 +1,13 @@
 function once<T extends (...args: any[]) => any>(fn: T): 
  ((...args: Parameters<T>) => ReturnType<T> | undefined) {
-  let isDone = false
+     let isDone = false
   return function (...args) {
-      if(isDone){
-          return undefined
+      if (!isDone){
+          isDone = true
+          return fn(...args)
       }
       
-      isDone = true
-      return fn(...args)
+      return undefined
   };
 }
 
