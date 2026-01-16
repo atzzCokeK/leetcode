@@ -9,7 +9,7 @@ function dailyTemperatures(temperatures: number[]): number[] {
             ans[top] = i - top
         }
 
-        stack.push([i])
+        stack.push(i)
     }
 
     return ans
